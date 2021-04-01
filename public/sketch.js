@@ -4,7 +4,7 @@ var trianglebutton, colorbutton, concbutton;
 var patternType;
 var slider;
 function setup() {
-    createCanvas(1000,1000);
+    createCanvas(windowWidth, windowHeight);
     socket = io.connect('https://collaborative-drawing-tool.herokuapp.com/');
     background('black');
 
