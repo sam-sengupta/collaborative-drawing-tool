@@ -5,7 +5,7 @@ var patternType;
 var slider;
 function setup() {
     createCanvas(1000,1000);
-    socket = io.connect('http://localhost:3000');
+    socket = io.connect('https://collaborative-drawing-tool.herokuapp.com/:3000');
     background('black');
 
     socket.on('pattern', newDrawing);
