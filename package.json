@@ -1,0 +1,28 @@
+{
+  "name": "drawing_tool",
+  "version": "1.0.0",
+  "description": "drawing tool UwU",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-sengupta/advancedCreativeCoding/tree/main/homework_07"
+  },
+  "keywords": [
+    "drawing",
+    "tool",
+    "node"
+  ],
+  "author": "Sam Sengupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-sengupta/advancedCreativeCoding/tree/main/homework_07/issues"
+  },
+  "homepage": "https://github.com/sam-sengupta/advancedCreativeCoding/tree/main/homework_07#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
