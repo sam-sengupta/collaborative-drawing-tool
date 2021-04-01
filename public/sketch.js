@@ -108,7 +108,7 @@ function mouseDragged(){
 }
 
 function keyPressed() {
-    if(keyCode == DELETE) {
+    if(keyCode == BACKSPACE) {
         console.log("pressed the delete :'(");
         background('black');
     }
